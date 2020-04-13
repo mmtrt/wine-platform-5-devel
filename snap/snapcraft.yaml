@@ -28,7 +28,7 @@ parts:
       snapcraftctl build
 
       ARCH="$(dpkg --print-architecture)"
-      WINE_VER="5.5"
+      WINE_VER="5.6"
 
       # set snap version
       snapcraftctl set-version "$WINE_VER"
